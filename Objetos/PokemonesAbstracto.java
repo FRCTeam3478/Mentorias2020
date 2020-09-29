@@ -1,16 +1,5 @@
-public class Pokemones
+public abstract class PokemonesAbstracto
 {
-
-    /*
-    //Atributos
-    Nombre
-    N. en pokedex
-    Tipo
-    Genero
-    Evoluciona? S/N
-    Shinny? S/N
-    A que se parece?
-    */
 
     private String nombre;
     private int numero; 
@@ -20,8 +9,7 @@ public class Pokemones
     private boolean shinny;
     private String parecido;
 
-    //Funcion de inicio - Constructor
-    public Pokemones(String nombre, int numero, String tipo, char genero, boolean evolucion, boolean shinny, String parecido)
+    public PokemonesAbstracto(String nombre, int numero, String tipo, char genero, boolean evolucion, boolean shinny, String parecido)
     {
 
         this.nombre = nombre;
@@ -33,31 +21,10 @@ public class Pokemones
         this.parecido = parecido;
 
     }
+    
+    public abstract void ataque();
 
-    /*
-    //Funciones
-    Ataque
-    Sonido
-    Evolucionar
-    Defensa/Esquiva
-    Huir
-    Agarrar objeto
-    Comer
-    */
-
-    public void ataque()
-    {
-
-        System.out.println("*ataca*");
-
-    }
-
-    public void sonido()
-    {
-
-        System.out.println("*sonidos de pokemon*");
-
-    }
+    public abstract void sonido();
 
     public void evolucionar()
     {

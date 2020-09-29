@@ -6,6 +6,7 @@ public class Main
 
         Pokemones pikachu = new Pokemones("Pikachu", 25, "Electrico", 'm', true, false, "Rata");
         PokemonesAgua tentacool = new PokemonesAgua("Tentacool", 72, "Agua | Veneno", 'h', true, true, "Pulpo");
+        PokemonesHada jigglypuff = new PokemonesHada("Jigglypuff", 39, "Normal | Hada", 'h', true, false, "Bolita rosa");
 
         pikachu.ataque();
         pikachu.sonido();
@@ -28,12 +29,16 @@ public class Main
         tentacool.sonido();
         tentacool.huir();
 
-        tentacool.agarrar("Roca");
+        tentacool.agarrar("Bateria");
+
         
         //Con encapsulamiento
         System.out.println(tentacool.getNombre());
-        tentacool.setNombre("Calamardo");
+        tentacool.setNombre("Calamardo Verde");
         System.out.println(tentacool.getNombre());
+
+        jigglypuff.ataque();
+        jigglypuff.sonido();
 
     }
 

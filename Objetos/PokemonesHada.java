@@ -1,8 +1,8 @@
-public class PokemonesAgua extends PokemonesAbstracto
+public class PokemonesHada extends PokemonesAbstracto
 {
 
     private String nombre;
-    private int numero; 
+    private int numero;
     private String tipo;
     private char genero;
     private boolean evolucion;
@@ -10,7 +10,7 @@ public class PokemonesAgua extends PokemonesAbstracto
     private String parecido;
     private String color;
 
-    public PokemonesAgua(String nombre, int numero, String tipo, char genero, boolean evolucion, boolean shinny, String parecido)
+    public PokemonesHada(String nombre, int numero, String tipo, char genero, boolean evolucion, boolean shinny, String parecido)
     {
 
         super(nombre, numero, tipo, genero, evolucion, shinny, parecido);
@@ -22,7 +22,7 @@ public class PokemonesAgua extends PokemonesAbstracto
         this.evolucion = evolucion;
         this.shinny = shinny;
         this.parecido = parecido;
-        color = "Azul";
+        color = "Rosa";
 
     }
 
@@ -30,15 +30,15 @@ public class PokemonesAgua extends PokemonesAbstracto
     public void ataque()
     {
 
-        System.out.println(nombre + " ha usado chorro de agua");
+        System.out.println("*ataques con sonidos de tinker bell*");
 
     }
 
-    @Override //Esta funcion esta sobreescrita
+    @Override
     public void sonido()
     {
 
-        System.out.println("*glu glu*");
+        System.out.println("*puff puff*");
 
     }
 
