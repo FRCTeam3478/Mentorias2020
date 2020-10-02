@@ -1,4 +1,4 @@
-public class PokemonesAgua extends PokemonesAbstracto
+public class PokemonesAgua extends Pokemones
 {
 
     private String nombre;
@@ -13,6 +13,7 @@ public class PokemonesAgua extends PokemonesAbstracto
     public PokemonesAgua(String nombre, int numero, String tipo, char genero, boolean evolucion, boolean shinny, String parecido)
     {
 
+        //super();
         super(nombre, numero, tipo, genero, evolucion, shinny, parecido);
 
         this.nombre = nombre;
@@ -39,20 +40,6 @@ public class PokemonesAgua extends PokemonesAbstracto
     {
 
         System.out.println("*glu glu*");
-
-    }
-
-    public void setColor(String nuevoColor)
-    {
-
-        color = nuevoColor;
-
-    }
-
-    public String getColor()
-    {
-
-        return color;
 
     }
 

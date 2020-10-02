@@ -1,4 +1,4 @@
-public class PokemonesHada extends PokemonesAbstracto
+public class PokemonesHada extends Pokemones
 {
 
     private String nombre;
@@ -30,7 +30,7 @@ public class PokemonesHada extends PokemonesAbstracto
     public void ataque()
     {
 
-        System.out.println("*ataques con sonidos de tinker bell*");
+        System.out.println("*abajo + B*");
 
     }
 

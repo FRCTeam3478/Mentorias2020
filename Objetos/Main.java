@@ -3,42 +3,27 @@ public class Main
 
     public static void main(String[] args)
     {
-
-        Pokemones pikachu = new Pokemones("Pikachu", 25, "Electrico", 'm', true, false, "Rata");
-        PokemonesAgua tentacool = new PokemonesAgua("Tentacool", 72, "Agua | Veneno", 'h', true, true, "Pulpo");
-        PokemonesHada jigglypuff = new PokemonesHada("Jigglypuff", 39, "Normal | Hada", 'h', true, false, "Bolita rosa");
-
-        pikachu.ataque();
-        pikachu.sonido();
-        pikachu.huir();
-
-        pikachu.agarrar("Roca");
-
         
-        //Con encapsulamiento
-        System.out.println(pikachu.getNombre());
-        pikachu.setNombre("Rata amarilla");
-        System.out.println(pikachu.getNombre());
+        Pokemones arceus = new Pokemones("Arceus", 493, "Yes", '-', false, false, "Jesus Christ");
 
-        //Sin encapsulamiento
-        //System.out.println(pikachu.nombre);
-        //pikachu.nombre = "Rata amarilla";
-        //System.out.println(pikachu.nombre);
+        arceus.ataque();
+        arceus.sonido();
+        arceus.agarrar("Piedra filosofal");
+        System.out.println(arceus.getTipo());
 
-        tentacool.ataque();
-        tentacool.sonido();
-        tentacool.huir();
-
-        tentacool.agarrar("Bateria");
-
+        arceus = new PokemonesAgua("Arceus", 493, "Agua", '-', false, false, "Jesus Christ");
         
-        //Con encapsulamiento
-        System.out.println(tentacool.getNombre());
-        tentacool.setNombre("Calamardo Verde");
-        System.out.println(tentacool.getNombre());
+        arceus.ataque();
+        arceus.sonido();
+        arceus.agarrar("Katana");
+        System.out.println(arceus.getTipo());
 
-        jigglypuff.ataque();
-        jigglypuff.sonido();
+        arceus = new PokemonesHada("Arceus", 493, "Hada", '-', false, false, "Jesus Christ");
+
+        arceus.ataque();
+        arceus.sonido();
+        arceus.agarrar("Bola Smash");
+        System.out.println(arceus.getTipo());
 
     }
 

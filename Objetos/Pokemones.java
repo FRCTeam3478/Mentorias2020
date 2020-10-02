@@ -13,7 +13,7 @@ public class Pokemones
     */
 
     private String nombre;
-    private int numero; 
+    private int numero;
     private String tipo;
     private char genero;
     private boolean evolucion;
@@ -130,7 +130,7 @@ public class Pokemones
 
     }
 
-    public String tipo()
+    public String getTipo()
     {
 
         return tipo;
