@@ -1,4 +1,4 @@
-public class PokemonesAgua extends Pokemones
+public class PokemonesAgua extends PokemonesAbstracto
 {
 
     private String nombre;

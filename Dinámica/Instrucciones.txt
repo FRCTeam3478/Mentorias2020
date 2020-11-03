@@ -1,0 +1,17 @@
+Una Clase Padre
+Dos Clases Hijo
+Deben sobreescribir un método mínimo
+Un Main
+3 a 5 atributos
+Encapsulamiento
+3 funciones o más
+Tema libre
+
+Extra:
+Clase Abstracta (con dos funciones abstractas) (Clase Padre (Abstracta) -> Clases Hijo)
+Interfaz (Interfaz -> Clase Padre -> Clases Hijo)
+Clase Hijo de Clase Hijo (Clases Nieto)
+
+Instrucciones extra:
+No Googlear
+Referencia (+100 style point ;v)

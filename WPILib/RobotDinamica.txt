@@ -1,0 +1,11 @@
+Robot:
+
+Chasis - 4 motores (NEOs)
+Intake - 1 motor (NEO), 1 limit switch
+Elevador - 2 motores (NEOs), 2 limit switches
+
+Comandos:
+
+Movimiento de cada subsistema
+Posicion arriba y abajo de elevador
+Comer y escupir

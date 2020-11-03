@@ -1,0 +1,13 @@
+Robot:
+
+Chasis:
+	4 Motores (NEOs) - Spark Max (0, 1, 2, 3)
+
+Intake (pelotas):
+	1 Motor (NEOs) - Spark Max (4)
+	1 Limits Switch - Spark Max (4)
+
+Elevador:
+	2 Motores (NEOs) - Spark Max (5, 6)
+	2 Limit Switch - Spark Max (5)
+	*Encoders
