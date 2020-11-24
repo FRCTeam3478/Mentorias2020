@@ -9,3 +9,4 @@ Comandos:
 Movimiento de cada subsistema
 Posicion arriba y abajo de elevador
 Comer y escupir
+Extras (si quieren)
